@@ -1,10 +1,10 @@
 pipeline {
     agent any
-  
+
     stages {
         stage('Example') {
             steps {
-                sh 'sudo -S apt install nodejs -y'
+                sh 'sudo apt install nodejs -y'
             }
         }
     }
